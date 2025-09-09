@@ -1,1 +1,61 @@
 .DS_Store
+
+# Security and Signing Files - NEVER COMMIT THESE
+*.gpg
+*.asc
+*.key
+*.pem
+*.p12
+*.pfx
+*.cer
+*.crt
+secrets/
+private/
+keys/
+certificates/
+signing/
+.secrets/
+.private/
+.keys/
+
+# GPG and PGP Files
+*.gpg
+*.pgp
+secring.gpg
+pubring.gpg
+trustdb.gpg
+random_seed
+
+# PowerShell Signing Certificates
+*.p7b
+*.spc
+*.pvk
+
+# Environment and Configuration Files with Secrets
+.env
+.env.local
+.env.production
+config.secret.json
+appsettings.secret.json
+secrets.json
+
+# Temporary and Build Files
+*.tmp
+*.temp
+*.log
+*.bak
+*.swp
+*.swo
+*~
+.vscode/settings.json
+.idea/
+
+# Windows Specific
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# PowerShell Specific
+*.ps1xml
+profile.ps1
