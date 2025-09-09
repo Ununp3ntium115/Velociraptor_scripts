@@ -140,7 +140,7 @@ $PackagePanel.Location = New-Object System.Drawing.Point(10, 100)
 $PackagePanel.BackColor = $DarkPanel
 
 $PackageLabel = New-Object System.Windows.Forms.Label
-$PackageLabel.Text = "📦 Available Packages"
+$PackageLabel.Text = "Available Packages"
 $PackageLabel.Font = New-Object System.Drawing.Font("Segoe UI", 12, [System.Drawing.FontStyle]::Bold)
 $PackageLabel.ForeColor = $VelociraptorBlue
 $PackageLabel.Size = New-Object System.Drawing.Size(200, 25)
@@ -221,7 +221,7 @@ $BrowseButton.ForeColor = $TextColor
 
 # Options checkboxes
 $OfflineCheckBox = New-Object System.Windows.Forms.CheckBox
-$OfflineCheckBox.Text = "🔌 Offline Mode"
+$OfflineCheckBox.Text = "Offline Mode"
 $OfflineCheckBox.Size = New-Object System.Drawing.Size(120, 20)
 $OfflineCheckBox.Location = New-Object System.Drawing.Point(0, 60)
 $OfflineCheckBox.ForeColor = $TextColor
@@ -234,7 +234,7 @@ $EncryptCheckBox.Location = New-Object System.Drawing.Point(130, 60)
 $EncryptCheckBox.ForeColor = $TextColor
 
 $PortableCheckBox = New-Object System.Windows.Forms.CheckBox
-$PortableCheckBox.Text = "📦 Portable Package"
+$PortableCheckBox.Text = "Portable Package"
 $PortableCheckBox.Size = New-Object System.Drawing.Size(130, 20)
 $PortableCheckBox.Location = New-Object System.Drawing.Point(260, 60)
 $PortableCheckBox.ForeColor = $TextColor

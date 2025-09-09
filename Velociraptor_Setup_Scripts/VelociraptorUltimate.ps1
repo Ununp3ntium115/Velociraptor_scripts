@@ -3,7 +3,6 @@
 # Combines all functionality into one powerful application
 
 #Requires -Version 5.1
-#Requires -RunAsAdministrator
 
 <#
 .SYNOPSIS
@@ -39,10 +38,17 @@ param(
     [int] $WindowHeight = 900
 )
 
-# Import required assemblies
-Add-Type -AssemblyName System.Windows.Forms
-Add-Type -AssemblyName System.Drawing
-Add-Type -AssemblyName System.Web
+# Import required assemblies first
+try {
+    Add-Type -AssemblyName System.Windows.Forms -ErrorAction Stop
+    Add-Type -AssemblyName System.Drawing -ErrorAction Stop
+    Add-Type -AssemblyName System.Web -ErrorAction SilentlyContinue
+    Write-Verbose "Successfully loaded required assemblies"
+} catch {
+    Write-Error "Failed to load required assemblies: $($_.Exception.Message)"
+    Write-Host "This application requires Windows Forms support. Please run on Windows with .NET Framework or PowerShell 7+ with Windows Compatibility Pack." -ForegroundColor Red
+    exit 1
+}
 
 # Import modules
 $ModulePaths = @(
@@ -129,10 +135,10 @@ class VelociraptorUltimateApp {
             
             # Create all tabs with error handling
             try { $this.CreateDashboardTab() } catch { Write-Warning "Failed to create Dashboard tab: $($_.Exception.Message)" }
-            try { $this.CreateInvestigationsTab() } catch { Write-Warning "Failed to create Investigations tab: $($_.Exception.Message)" }
-            try { $this.CreateOfflineWorkerTab() } catch { Write-Warning "Failed to create Offline Worker tab: $($_.Exception.Message)" }
-            try { $this.CreateServerSetupTab() } catch { Write-Warning "Failed to create Server Setup tab: $($_.Exception.Message)" }
-            try { $this.CreateArtifactManagementTab() } catch { Write-Warning "Failed to create Artifact Management tab: $($_.Exception.Message)" }
+            try { $this.CreateInvestigationTab() } catch { Write-Warning "Failed to create Investigation tab: $($_.Exception.Message)" }
+            try { $this.CreateOfflineTab() } catch { Write-Warning "Failed to create Offline tab: $($_.Exception.Message)" }
+            try { $this.CreateServerTab() } catch { Write-Warning "Failed to create Server tab: $($_.Exception.Message)" }
+            try { $this.CreateArtifactTab() } catch { Write-Warning "Failed to create Artifact tab: $($_.Exception.Message)" }
             try { $this.CreateMonitoringTab() } catch { Write-Warning "Failed to create Monitoring tab: $($_.Exception.Message)" }
             
             $this.MainForm.Controls.Add($this.MainTabControl)
@@ -277,7 +283,55 @@ class VelociraptorUltimateApp {
         $this.MainTabControl.TabPages.Add($investigationsTab)
     }
     
-    [void] CreateOfflineWorkerTab() {
+    [void] CreateInvestigationTab() {
+        $investigationTab = New-Object System.Windows.Forms.TabPage
+        $investigationTab.Text = "Investigations"
+        $investigationTab.BackColor = [System.Drawing.Color]::White
+        
+        # Case management panel
+        $casePanel = New-Object System.Windows.Forms.GroupBox
+        $casePanel.Text = "Case Management"
+        $casePanel.Location = New-Object System.Drawing.Point(20, 20)
+        $casePanel.Size = New-Object System.Drawing.Size(400, 420)
+        $casePanel.Font = New-Object System.Drawing.Font("Segoe UI", 10, [System.Drawing.FontStyle]::Bold)
+        
+        # New case button
+        $newCaseBtn = New-Object System.Windows.Forms.Button
+        $newCaseBtn.Text = "New Investigation"
+        $newCaseBtn.Location = New-Object System.Drawing.Point(10, 30)
+        $newCaseBtn.Size = New-Object System.Drawing.Size(150, 40)
+        $newCaseBtn.BackColor = [System.Drawing.Color]::FromArgb(0, 120, 215)
+        $newCaseBtn.ForeColor = [System.Drawing.Color]::White
+        $newCaseBtn.FlatStyle = [System.Windows.Forms.FlatStyle]::Flat
+        $newCaseBtn.Add_Click({ $this.CreateNewCase() })
+        $casePanel.Controls.Add($newCaseBtn)
+        
+        # Case list
+        $caseListBox = New-Object System.Windows.Forms.ListBox
+        $caseListBox.Location = New-Object System.Drawing.Point(10, 90)
+        $caseListBox.Size = New-Object System.Drawing.Size(375, 300)
+        $caseListBox.Font = New-Object System.Drawing.Font("Segoe UI", 9)
+        $casePanel.Controls.Add($caseListBox)
+        
+        # Investigation details panel
+        $detailsPanel = New-Object System.Windows.Forms.Panel
+        $detailsPanel.Location = New-Object System.Drawing.Point(440, 20)
+        $detailsPanel.Size = New-Object System.Drawing.Size(920, 420)
+        $detailsPanel.BorderStyle = [System.Windows.Forms.BorderStyle]::FixedSingle
+        
+        $detailsLabel = New-Object System.Windows.Forms.Label
+        $detailsLabel.Text = "Investigation Details"
+        $detailsLabel.Location = New-Object System.Drawing.Point(10, 10)
+        $detailsLabel.Size = New-Object System.Drawing.Size(200, 25)
+        $detailsLabel.Font = New-Object System.Drawing.Font("Segoe UI", 12, [System.Drawing.FontStyle]::Bold)
+        $detailsPanel.Controls.Add($detailsLabel)
+        
+        $investigationTab.Controls.Add($casePanel)
+        $investigationTab.Controls.Add($detailsPanel)
+        $this.MainTabControl.TabPages.Add($investigationTab)
+    }
+
+    [void] CreateOfflineTab() {
         $offlineTab = New-Object System.Windows.Forms.TabPage
         $offlineTab.Text = "Offline Worker"
         $offlineTab.BackColor = [System.Drawing.Color]::White
@@ -339,7 +393,7 @@ class VelociraptorUltimateApp {
         $this.MainTabControl.TabPages.Add($offlineTab)
     }
     
-    [void] CreateServerSetupTab() {
+    [void] CreateServerTab() {
         $serverTab = New-Object System.Windows.Forms.TabPage
         $serverTab.Text = "Server Setup"
         $serverTab.BackColor = [System.Drawing.Color]::White
@@ -398,7 +452,7 @@ class VelociraptorUltimateApp {
         $this.MainTabControl.TabPages.Add($serverTab)
     }
     
-    [void] CreateArtifactManagementTab() {
+    [void] CreateArtifactTab() {
         $artifactTab = New-Object System.Windows.Forms.TabPage
         $artifactTab.Text = "Artifacts"
         $artifactTab.BackColor = [System.Drawing.Color]::White
