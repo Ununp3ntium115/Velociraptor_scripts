@@ -1,0 +1,1234 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Velociraptor Artifact Report</title>
+    <style>
+        body { font-family: 'Segoe UI', Arial, sans-serif; margin: 20px; background-color: #f5f5f5; }
+        .header { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 20px; border-radius: 10px; margin-bottom: 20px; }
+        .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; margin-bottom: 20px; }
+        .stat-card { background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); text-align: center; }
+        .stat-card h3 { margin: 0; font-size: 2em; color: #667eea; }
+        .artifact-list { background: white; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); overflow: hidden; }
+        .artifact-item { padding: 15px; border-bottom: 1px solid #f1f3f4; }
+        .artifact-item:hover { background-color: #f8f9fa; }
+        .artifact-name { font-weight: bold; color: #333; }
+        .artifact-meta { color: #666; font-size: 0.9em; margin-top: 5px; }
+        .validation-score { padding: 3px 8px; border-radius: 12px; color: white; font-size: 0.8em; }
+        .score-high { background-color: #28a745; }
+        .score-medium { background-color: #ffc107; color: #212529; }
+        .score-low { background-color: #dc3545; }
+        .platform-badge { padding: 2px 6px; border-radius: 4px; font-size: 0.8em; margin-right: 5px; }
+        .platform-windows { background-color: #0078d4; color: white; }
+        .platform-linux { background-color: #ff6b35; color: white; }
+        .platform-macos { background-color: #007aff; color: white; }
+        .platform-generic { background-color: #6c757d; color: white; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>📊 Velociraptor Artifact Report</h1>
+        <p>Generated: 2025-09-09 09:49:37</p>
+        <p>Total Artifacts Analyzed: 98</p>
+    </div>
+    
+    <div class="stats">
+        <div class="stat-card">
+            <h3>98</h3>
+            <p>Total Artifacts</p>
+        </div>
+        <div class="stat-card">
+            <h3>95</h3>
+            <p>Valid Artifacts</p>
+        </div>
+        <div class="stat-card">
+            <h3>3</h3>
+            <p>Invalid Artifacts</p>
+        </div>
+        <div class="stat-card">
+            <h3>74%</h3>
+            <p>Average Quality Score</p>
+        </div>
+    </div>
+    
+    <div class="artifact-list">
+        <h3 style="padding: 15px; margin: 0; background-color: #f8f9fa; border-bottom: 1px solid #dee2e6;">Artifact Details</h3>
+<div class='artifact-item'>
+            <div class='artifact-name'></div>
+            <div class='artifact-meta'>
+                <span class='platform-badge platform-generic'>Generic</span>
+                <span class='validation-score score-low'>0%</span>
+                <br>
+                <strong>File:</strong> .golangci.yml | 
+                <strong>Author:</strong>  | 
+                <strong>Parameters:</strong> 0
+                <br>
+                <strong>Description:</strong> 
+            </div>
+        </div> <div class='artifact-item'>
+            <div class='artifact-name'></div>
+            <div class='artifact-meta'>
+                <span class='platform-badge platform-generic'>Generic</span>
+                <span class='validation-score score-low'>0%</span>
+                <br>
+                <strong>File:</strong> .wwhrd.yml | 
+                <strong>Author:</strong>  | 
+                <strong>Parameters:</strong> 0
+                <br>
+                <strong>Description:</strong> 
+            </div>
+        </div> <div class='artifact-item'>
+            <div class='artifact-name'>Linux.Sys.ACPITables</div>
+            <div class='artifact-meta'>
+                <span class='platform-badge platform-generic'>Generic</span>
+                <span class='validation-score score-high'>80%</span>
+                <br>
+                <strong>File:</strong> ACPITables.yaml | 
+                <strong>Author:</strong>  | 
+                <strong>Parameters:</strong> 1
+                <br>
+                <strong>Description:</strong> Firmware ACPI functional table common metadata and content.
+            </div>
+        </div> <div class='artifact-item'>
+            <div class='artifact-name'>Linux.Detection.AnomalousFiles</div>
+            <div class='artifact-meta'>
+                <span class='platform-badge platform-generic'>Generic</span>
+                <span class='validation-score score-high'>90%</span>
+                <br>
+                <strong>File:</strong> AnomalousFiles.yaml | 
+                <strong>Author:</strong> George-Andrei Iosif (@iosifache) | 
+                <strong>Parameters:</strong> 2
+                <br>
+                <strong>Description:</strong> |
+            </div>
+        </div> <div class='artifact-item'>
+            <div class='artifact-name'>MacOS.Forensics.AppleDoubleZip</div>
+            <div class='artifact-meta'>
+                <span class='platform-badge platform-generic'>Generic</span>
+                <span class='validation-score score-medium'>70%</span>
+                <br>
+                <strong>File:</strong> AppleDoubleZip.yaml | 
+                <strong>Author:</strong>  | 
+                <strong>Parameters:</strong> 1
+                <br>
+                <strong>Description:</strong> |
+            </div>
+        </div> <div class='artifact-item'>
+            <div class='artifact-name'>Linux.Debian.AptSources</div>
+            <div class='artifact-meta'>
+                <span class='platform-badge platform-generic'>Generic</span>
+                <span class='validation-score score-high'>80%</span>
+                <br>
+                <strong>File:</strong> AptSources.yaml | 
+                <strong>Author:</strong>  | 
+                <strong>Parameters:</strong> 5
+                <br>
+                <strong>Description:</strong> |
+            </div>
+        </div> <div class='artifact-item'>
+            <div class='artifact-name'>Linux.Proc.Arp</div>
+            <div class='artifact-meta'>
+                <span class='platform-badge platform-generic'>Generic</span>
+                <span class='validation-score score-high'>80%</span>
+                <br>
+                <strong>File:</strong> Arp.yaml | 
+                <strong>Author:</strong>  | 
+                <strong>Parameters:</strong> 1
+                <br>
+                <strong>Description:</strong> ARP table via /proc/net/arp.
+            </div>
+        </div> <div class='artifact-item'>
+            <div class='artifact-name'>Linux.Ssh.AuthorizedKeys</div>
+            <div class='artifact-meta'>
+                <span class='platform-badge platform-generic'>Generic</span>
+                <span class='validation-score score-high'>80%</span>
+                <br>
+                <strong>File:</strong> AuthorizedKeys.yaml | 
+                <strong>Author:</strong>  | 
+                <strong>Parameters:</strong> 3
+                <br>
+                <strong>Description:</strong> |
+            </div>
+        </div> <div class='artifact-item'>
+            <div class='artifact-name'>MacOS.Detection.Autoruns</div>
+            <div class='artifact-meta'>
+                <span class='platform-badge platform-generic'>Generic</span>
+                <span class='validation-score score-high'>80%</span>
+                <br>
+                <strong>File:</strong> Autoruns.yaml | 
+                <strong>Author:</strong>  | 
+                <strong>Parameters:</strong> 14
+                <br>
+                <strong>Description:</strong> |
+            </div>
+        </div> <div class='artifact-item'>
+            <div class='artifact-name'></div>
+            <div class='artifact-meta'>
+                <span class='platform-badge platform-generic'>Generic</span>
+                <span class='validation-score score-low'>0%</span>
+                <br>
+                <strong>File:</strong> b0x.yaml | 
+                <strong>Author:</strong>  | 
+                <strong>Parameters:</strong> 0
+                <br>
+                <strong>Description:</strong> 
+            </div>
+        </div> <div class='artifact-item'>
+            <div class='artifact-name'>Generic.Client.CleanupTemp</div>
+            <div class='artifact-meta'>
+                <span class='platform-badge platform-generic'>Generic</span>
+                <span class='validation-score score-medium'>70%</span>
+                <br>
+                <strong>File:</strong> CleanupTemp.yaml | 
+                <strong>Author:</strong>  | 
+                <strong>Parameters:</strong> 3
+                <br>
+                <strong>Description:</strong> |
+            </div>
+        </div> <div class='artifact-item'>
+            <div class='artifact-name'>LogScale.Events.Clients</div>
+            <div class='artifact-meta'>
+                <span class='platform-badge platform-generic'>Generic</span>
+                <span class='validation-score score-medium'>70%</span>
+                <br>
+                <strong>File:</strong> Clients.yaml | 
+                <strong>Author:</strong>  | 
+                <strong>Parameters:</strong> 10
+                <br>
+                <strong>Description:</strong> |
+            </div>
+        </div> <div class='artifact-item'>
+            <div class='artifact-name'>Linux.Sys.CPUTime</div>
+            <div class='artifact-meta'>
+                <span class='platform-badge platform-generic'>Generic</span>
+                <span class='validation-score score-high'>80%</span>
+                <br>
+                <strong>File:</strong> CPUTime.yaml | 
+                <strong>Author:</strong>  | 
+                <strong>Parameters:</strong> 1
+                <br>
+                <strong>Description:</strong> |
+            </div>
+        </div> <div class='artifact-item'>
+            <div class='artifact-name'>Linux.Sys.Crontab</div>
+            <div class='artifact-meta'>
+                <span class='platform-badge platform-generic'>Generic</span>
+                <span class='validation-score score-high'>80%</span>
+                <br>
+                <strong>File:</strong> Crontab.yaml | 
+                <strong>Author:</strong>  | 
+                <strong>Parameters:</strong> 6
+                <br>
+                <strong>Description:</strong> |
+            </div>
+        </div> <div class='artifact-item'>
+            <div class='artifact-name'>Generic.Utils.DeadDiskRemapping</div>
+            <div class='artifact-meta'>
+                <span class='platform-badge platform-generic'>Generic</span>
+                <span class='validation-score score-medium'>70%</span>
+                <br>
+                <strong>File:</strong> DeadDiskRemapping.yaml | 
+                <strong>Author:</strong>  | 
+                <strong>Parameters:</strong> 6
+                <br>
+                <strong>Description:</strong> |
+            </div>
+        </div> <div class='artifact-item'>
+            <div class='artifact-name'>Admin.Client.Upgrade.Debian</div>
+            <div class='artifact-meta'>
+                <span class='platform-badge platform-generic'>Generic</span>
+                <span class='validation-score score-high'>80%</span>
+                <br>
+                <strong>File:</strong> Debian.yaml | 
+                <strong>Author:</strong>  | 
+                <strong>Parameters:</strong> 3
+                <br>
+                <strong>Description:</strong> |
+            </div>
+        </div> <div class='artifact-item'>
+            <div class='artifact-name'>Generic.Client.DiskSpace</div>
+            <div class='artifact-meta'>
+                <span class='platform-badge platform-generic'>Generic</span>
+                <span class='validation-score score-medium'>60%</span>
+                <br>
+                <strong>File:</strong> DiskSpace.yaml | 
+                <strong>Author:</strong>  | 
+                <strong>Parameters:</strong> 0
+                <br>
+                <strong>Description:</strong> |
+            </div>
+        </div> <div class='artifact-item'>
+            <div class='artifact-name'>Generic.Client.DiskUsage</div>
+            <div class='artifact-meta'>
+                <span class='platform-badge platform-generic'>Generic</span>
+                <span class='validation-score score-medium'>70%</span>
+                <br>
+                <strong>File:</strong> DiskUsage.yaml | 
+                <strong>Author:</strong>  | 
+                <strong>Parameters:</strong> 3
+                <br>
+                <strong>Description:</strong> |
+            </div>
+        </div> <div class='artifact-item'>
+            <div class='artifact-name'>Linux.Events.DNS</div>
+            <div class='artifact-meta'>
+                <span class='platform-badge platform-generic'>Generic</span>
+                <span class='validation-score score-high'>80%</span>
+                <br>
+                <strong>File:</strong> DNS.yaml | 
+                <strong>Author:</strong>  | 
+                <strong>Parameters:</strong> 5
+                <br>
+                <strong>Description:</strong> |
+            </div>
+        </div> <div class='artifact-item'>
+            <div class='artifact-name'>Linux.Events.EBPF</div>
+            <div class='artifact-meta'>
+                <span class='platform-badge platform-generic'>Generic</span>
+                <span class='validation-score score-high'>80%</span>
+                <br>
+                <strong>File:</strong> EBPF.yaml | 
+                <strong>Author:</strong>  | 
+                <strong>Parameters:</strong> 1
+                <br>
+                <strong>Description:</strong> |
+            </div>
+        </div> <div class='artifact-item'>
+            <div class='artifact-name'>Generic.System.EfiSignatures</div>
+            <div class='artifact-meta'>
+                <span class='platform-badge platform-generic'>Generic</span>
+                <span class='validation-score score-medium'>60%</span>
+                <br>
+                <strong>File:</strong> EfiSignatures.yaml | 
+                <strong>Author:</strong>  | 
+                <strong>Parameters:</strong> 2
+                <br>
+                <strong>Description:</strong> |
+            </div>
+        </div> <div class='artifact-item'>
+            <div class='artifact-name'>Linux.Applications.Chrome.Extensions</div>
+            <div class='artifact-meta'>
+                <span class='platform-badge platform-generic'>Generic</span>
+                <span class='validation-score score-high'>80%</span>
+                <br>
+                <strong>File:</strong> Extensions.yaml | 
+                <strong>Author:</strong>  | 
+                <strong>Parameters:</strong> 1
+                <br>
+                <strong>Description:</strong> |
+            </div>
+        </div> <div class='artifact-item'>
+            <div class='artifact-name'>Generic.Utils.FetchBinary</div>
+            <div class='artifact-meta'>
+                <span class='platform-badge platform-generic'>Generic</span>
+                <span class='validation-score score-medium'>70%</span>
+                <br>
+                <strong>File:</strong> FetchBinary.yaml | 
+                <strong>Author:</strong>  | 
+                <strong>Parameters:</strong> 5
+                <br>
+                <strong>Description:</strong> |
+            </div>
+        </div> <div class='artifact-item'>
+            <div class='artifact-name'>Demo.Plugins.Fifo</div>
+            <div class='artifact-meta'>
+                <span class='platform-badge platform-generic'>Generic</span>
+                <span class='validation-score score-medium'>60%</span>
+                <br>
+                <strong>File:</strong> Fifo.yaml | 
+                <strong>Author:</strong>  | 
+                <strong>Parameters:</strong> 0
+                <br>
+                <strong>Description:</strong> |
+            </div>
+        </div> <div class='artifact-item'>
+            <div class='artifact-name'>Generic.Collectors.File</div>
+            <div class='artifact-meta'>
+                <span class='platform-badge platform-generic'>Generic</span>
+                <span class='validation-score score-medium'>70%</span>
+                <br>
+                <strong>File:</strong> File.yaml | 
+                <strong>Author:</strong>  | 
+                <strong>Parameters:</strong> 8
+                <br>
+                <strong>Description:</strong> |
+            </div>
+        </div> <div class='artifact-item'>
+            <div class='artifact-name'>Linux.Search.FileFinder</div>
+            <div class='artifact-meta'>
+                <span class='platform-badge platform-generic'>Generic</span>
+                <span class='validation-score score-high'>80%</span>
+                <br>
+                <strong>File:</strong> FileFinder.yaml | 
+                <strong>Author:</strong>  | 
+                <strong>Parameters:</strong> 18
+                <br>
+                <strong>Description:</strong> |
+            </div>
+        </div> <div class='artifact-item'>
+            <div class='artifact-name'>MacOS.Forensics.FSEvents</div>
+            <div class='artifact-meta'>
+                <span class='platform-badge platform-generic'>Generic</span>
+                <span class='validation-score score-high'>80%</span>
+                <br>
+                <strong>File:</strong> FSEvents.yaml | 
+                <strong>Author:</strong> | | 
+                <strong>Parameters:</strong> 6
+                <br>
+                <strong>Description:</strong> |
+            </div>
+        </div> <div class='artifact-item'>
+            <div class='artifact-name'>MacOS.OSQuery.Generic</div>
+            <div class='artifact-meta'>
+                <span class='platform-badge platform-generic'>Generic</span>
+                <span class='validation-score score-high'>80%</span>
+                <br>
+                <strong>File:</strong> Generic.yaml | 
+                <strong>Author:</strong>  | 
+                <strong>Parameters:</strong> 2
+                <br>
+                <strong>Description:</strong> |
+            </div>
+        </div> <div class='artifact-item'>
+            <div class='artifact-name'>Generic.Forensic.LocalHashes.Glob</div>
+            <div class='artifact-meta'>
+                <span class='platform-badge platform-generic'>Generic</span>
+                <span class='validation-score score-medium'>70%</span>
+                <br>
+                <strong>File:</strong> Glob.yaml | 
+                <strong>Author:</strong>  | 
+                <strong>Parameters:</strong> 3
+                <br>
+                <strong>Description:</strong> |
+            </div>
+        </div> <div class='artifact-item'>
+            <div class='artifact-name'>Linux.Sys.Groups</div>
+            <div class='artifact-meta'>
+                <span class='platform-badge platform-generic'>Generic</span>
+                <span class='validation-score score-high'>90%</span>
+                <br>
+                <strong>File:</strong> Groups.yaml | 
+                <strong>Author:</strong> Andreas Misje – @misje | 
+                <strong>Parameters:</strong> 1
+                <br>
+                <strong>Description:</strong> Get system group IDs, names and memberships from /etc/group
+            </div>
+        </div> <div class='artifact-item'>
+            <div class='artifact-name'>Demo.Plugins.GUI</div>
+            <div class='artifact-meta'>
+                <span class='platform-badge platform-generic'>Generic</span>
+                <span class='validation-score score-medium'>70%</span>
+                <br>
+                <strong>File:</strong> GUI.yaml | 
+                <strong>Author:</strong>  | 
+                <strong>Parameters:</strong> 20
+                <br>
+                <strong>Description:</strong> |
+            </div>
+        </div> <div class='artifact-item'>
+            <div class='artifact-name'>Generic.Detection.HashHunter</div>
+            <div class='artifact-meta'>
+                <span class='platform-badge platform-generic'>Generic</span>
+                <span class='validation-score score-high'>80%</span>
+                <br>
+                <strong>File:</strong> HashHunter.yaml | 
+                <strong>Author:</strong> "Matt Green - @mgreen27" | 
+                <strong>Parameters:</strong> 9
+                <br>
+                <strong>Description:</strong> |
+            </div>
+        </div> <div class='artifact-item'>
+            <div class='artifact-name'>Generic.Forensic.HashLookup</div>
+            <div class='artifact-meta'>
+                <span class='platform-badge platform-generic'>Generic</span>
+                <span class='validation-score score-medium'>60%</span>
+                <br>
+                <strong>File:</strong> HashLookup.yaml | 
+                <strong>Author:</strong>  | 
+                <strong>Parameters:</strong> 0
+                <br>
+                <strong>Description:</strong> |
+            </div>
+        </div> <div class='artifact-item'>
+            <div class='artifact-name'>MacOS.Applications.Chrome.History</div>
+            <div class='artifact-meta'>
+                <span class='platform-badge platform-generic'>Generic</span>
+                <span class='validation-score score-high'>80%</span>
+                <br>
+                <strong>File:</strong> History.yaml | 
+                <strong>Author:</strong>  | 
+                <strong>Parameters:</strong> 3
+                <br>
+                <strong>Description:</strong> |
+            </div>
+        </div> <div class='artifact-item'>
+            <div class='artifact-name'>Generic.System.HostsFile</div>
+            <div class='artifact-meta'>
+                <span class='platform-badge platform-generic'>Generic</span>
+                <span class='validation-score score-medium'>70%</span>
+                <br>
+                <strong>File:</strong> HostsFile.yaml | 
+                <strong>Author:</strong>  | 
+                <strong>Parameters:</strong> 5
+                <br>
+                <strong>Description:</strong> |
+            </div>
+        </div> <div class='artifact-item'>
+            <div class='artifact-name'>Linux.Events.HTTPConnections</div>
+            <div class='artifact-meta'>
+                <span class='platform-badge platform-generic'>Generic</span>
+                <span class='validation-score score-high'>80%</span>
+                <br>
+                <strong>File:</strong> HTTPConnections.yaml | 
+                <strong>Author:</strong>  | 
+                <strong>Parameters:</strong> 5
+                <br>
+                <strong>Description:</strong> |
+            </div>
+        </div> <div class='artifact-item'>
+            <div class='artifact-name'>Linux.Forensics.ImmutableFiles</div>
+            <div class='artifact-meta'>
+                <span class='platform-badge platform-generic'>Generic</span>
+                <span class='validation-score score-high'>80%</span>
+                <br>
+                <strong>File:</strong> ImmutableFiles.yaml | 
+                <strong>Author:</strong>  | 
+                <strong>Parameters:</strong> 6
+                <br>
+                <strong>Description:</strong> |
+            </div>
+        </div> <div class='artifact-item'>
+            <div class='artifact-name'>Linux.Applications.Docker.Info</div>
+            <div class='artifact-meta'>
+                <span class='platform-badge platform-generic'>Generic</span>
+                <span class='validation-score score-high'>80%</span>
+                <br>
+                <strong>File:</strong> Info.yaml | 
+                <strong>Author:</strong>  | 
+                <strong>Parameters:</strong> 1
+                <br>
+                <strong>Description:</strong> Get Dockers info by connecting to its socket.
+            </div>
+        </div> <div class='artifact-item'>
+            <div class='artifact-name'>Generic.Forensic.LocalHashes.Init</div>
+            <div class='artifact-meta'>
+                <span class='platform-badge platform-generic'>Generic</span>
+                <span class='validation-score score-medium'>70%</span>
+                <br>
+                <strong>File:</strong> Init.yaml | 
+                <strong>Author:</strong>  | 
+                <strong>Parameters:</strong> 1
+                <br>
+                <strong>Description:</strong> |
+            </div>
+        </div> <div class='artifact-item'>
+            <div class='artifact-name'>Linux.Utils.InstallDeb</div>
+            <div class='artifact-meta'>
+                <span class='platform-badge platform-generic'>Generic</span>
+                <span class='validation-score score-high'>90%</span>
+                <br>
+                <strong>File:</strong> InstallDeb.yaml | 
+                <strong>Author:</strong> Andreas Misje – @misje | 
+                <strong>Parameters:</strong> 12
+                <br>
+                <strong>Description:</strong> |
+            </div>
+        </div> <div class='artifact-item'>
+            <div class='artifact-name'>MacOS.Detection.InstallHistory</div>
+            <div class='artifact-meta'>
+                <span class='platform-badge platform-generic'>Generic</span>
+                <span class='validation-score score-high'>90%</span>
+                <br>
+                <strong>File:</strong> InstallHistory.yaml | 
+                <strong>Author:</strong> Wes Lambert - @therealwlambert | 
+                <strong>Parameters:</strong> 2
+                <br>
+                <strong>Description:</strong> |
+            </div>
+        </div> <div class='artifact-item'>
+            <div class='artifact-name'>Linux.Users.InteractiveUsers</div>
+            <div class='artifact-meta'>
+                <span class='platform-badge platform-generic'>Generic</span>
+                <span class='validation-score score-high'>90%</span>
+                <br>
+                <strong>File:</strong> InteractiveUsers.yaml | 
+                <strong>Author:</strong> George-Andrei Iosif (@iosifache) | 
+                <strong>Parameters:</strong> 1
+                <br>
+                <strong>Description:</strong> |
+            </div>
+        </div> <div class='artifact-item'>
+            <div class='artifact-name'>Generic.Network.InterfaceAddresses</div>
+            <div class='artifact-meta'>
+                <span class='platform-badge platform-generic'>Generic</span>
+                <span class='validation-score score-medium'>60%</span>
+                <br>
+                <strong>File:</strong> InterfaceAddresses.yaml | 
+                <strong>Author:</strong>  | 
+                <strong>Parameters:</strong> 0
+                <br>
+                <strong>Description:</strong> |
+            </div>
+        </div> <div class='artifact-item'>
+            <div class='artifact-name'>Linux.Forensics.Journal</div>
+            <div class='artifact-meta'>
+                <span class='platform-badge platform-generic'>Generic</span>
+                <span class='validation-score score-medium'>70%</span>
+                <br>
+                <strong>File:</strong> Journal.yaml | 
+                <strong>Author:</strong>  | 
+                <strong>Parameters:</strong> 7
+                <br>
+                <strong>Description:</strong> |
+            </div>
+        </div> <div class='artifact-item'>
+            <div class='artifact-name'>Generic.Applications.Office.Keywords</div>
+            <div class='artifact-meta'>
+                <span class='platform-badge platform-generic'>Generic</span>
+                <span class='validation-score score-medium'>70%</span>
+                <br>
+                <strong>File:</strong> Keywords.yaml | 
+                <strong>Author:</strong>  | 
+                <strong>Parameters:</strong> 3
+                <br>
+                <strong>Description:</strong> |
+            </div>
+        </div> <div class='artifact-item'>
+            <div class='artifact-name'>Linux.Ssh.KnownHosts</div>
+            <div class='artifact-meta'>
+                <span class='platform-badge platform-generic'>Generic</span>
+                <span class='validation-score score-high'>80%</span>
+                <br>
+                <strong>File:</strong> KnownHosts.yaml | 
+                <strong>Author:</strong>  | 
+                <strong>Parameters:</strong> 2
+                <br>
+                <strong>Description:</strong> Finds and parses SSH known hosts files.
+            </div>
+        </div> <div class='artifact-item'>
+            <div class='artifact-name'>Linux.Sys.LastUserLogin</div>
+            <div class='artifact-meta'>
+                <span class='platform-badge platform-generic'>Generic</span>
+                <span class='validation-score score-high'>80%</span>
+                <br>
+                <strong>File:</strong> LastUserLogin.yaml | 
+                <strong>Author:</strong>  | 
+                <strong>Parameters:</strong> 5
+                <br>
+                <strong>Description:</strong> |
+            </div>
+        </div> <div class='artifact-item'>
+            <div class='artifact-name'>Generic.Client.LocalLogs</div>
+            <div class='artifact-meta'>
+                <span class='platform-badge platform-generic'>Generic</span>
+                <span class='validation-score score-medium'>70%</span>
+                <br>
+                <strong>File:</strong> LocalLogs.yaml | 
+                <strong>Author:</strong>  | 
+                <strong>Parameters:</strong> 6
+                <br>
+                <strong>Description:</strong> |
+            </div>
+        </div> <div class='artifact-item'>
+            <div class='artifact-name'>Generic.Client.LocalLogsRetrieve</div>
+            <div class='artifact-meta'>
+                <span class='platform-badge platform-generic'>Generic</span>
+                <span class='validation-score score-medium'>70%</span>
+                <br>
+                <strong>File:</strong> LocalLogsRetrieve.yaml | 
+                <strong>Author:</strong>  | 
+                <strong>Parameters:</strong> 1
+                <br>
+                <strong>Description:</strong> |
+            </div>
+        </div> <div class='artifact-item'>
+            <div class='artifact-name'>Linux.Sys.LogGrep</div>
+            <div class='artifact-meta'>
+                <span class='platform-badge platform-generic'>Generic</span>
+                <span class='validation-score score-high'>80%</span>
+                <br>
+                <strong>File:</strong> LogGrep.yaml | 
+                <strong>Author:</strong> "Matt Green - @mgreen27" | 
+                <strong>Parameters:</strong> 3
+                <br>
+                <strong>Description:</strong> |
+            </div>
+        </div> <div class='artifact-item'>
+            <div class='artifact-name'>Linux.Sys.LogHunter</div>
+            <div class='artifact-meta'>
+                <span class='platform-badge platform-generic'>Generic</span>
+                <span class='validation-score score-high'>80%</span>
+                <br>
+                <strong>File:</strong> LogHunter.yaml | 
+                <strong>Author:</strong> "Matt Green - @mgreen27" | 
+                <strong>Parameters:</strong> 5
+                <br>
+                <strong>Description:</strong> |
+            </div>
+        </div> <div class='artifact-item'>
+            <div class='artifact-name'>Generic.Detection.Logs</div>
+            <div class='artifact-meta'>
+                <span class='platform-badge platform-generic'>Generic</span>
+                <span class='validation-score score-high'>80%</span>
+                <br>
+                <strong>File:</strong> Logs.yaml | 
+                <strong>Author:</strong> "Matt Green - @mgreen27, Apache groks thanks to Harsh Jaroli and Krishna Patel" | 
+                <strong>Parameters:</strong> 3
+                <br>
+                <strong>Description:</strong> |
+            </div>
+        </div> <div class='artifact-item'>
+            <div class='artifact-name'>Linux.Sys.Maps</div>
+            <div class='artifact-meta'>
+                <span class='platform-badge platform-generic'>Generic</span>
+                <span class='validation-score score-high'>80%</span>
+                <br>
+                <strong>File:</strong> Maps.yaml | 
+                <strong>Author:</strong>  | 
+                <strong>Parameters:</strong> 1
+                <br>
+                <strong>Description:</strong> |
+            </div>
+        </div> <div class='artifact-item'>
+            <div class='artifact-name'>Linux.Proc.Modules</div>
+            <div class='artifact-meta'>
+                <span class='platform-badge platform-generic'>Generic</span>
+                <span class='validation-score score-high'>80%</span>
+                <br>
+                <strong>File:</strong> Modules.yaml | 
+                <strong>Author:</strong>  | 
+                <strong>Parameters:</strong> 1
+                <br>
+                <strong>Description:</strong> Module listing via /proc/modules.
+            </div>
+        </div> <div class='artifact-item'>
+            <div class='artifact-name'>Linux.Mounts</div>
+            <div class='artifact-meta'>
+                <span class='platform-badge platform-generic'>Generic</span>
+                <span class='validation-score score-high'>80%</span>
+                <br>
+                <strong>File:</strong> Mounts.yaml | 
+                <strong>Author:</strong>  | 
+                <strong>Parameters:</strong> 1
+                <br>
+                <strong>Description:</strong> List mounted filesystems by reading /proc/mounts
+            </div>
+        </div> <div class='artifact-item'>
+            <div class='artifact-name'>MacOS.Applications.MRU</div>
+            <div class='artifact-meta'>
+                <span class='platform-badge platform-generic'>Generic</span>
+                <span class='validation-score score-medium'>70%</span>
+                <br>
+                <strong>File:</strong> MRU.yaml | 
+                <strong>Author:</strong>  | 
+                <strong>Parameters:</strong> 1
+                <br>
+                <strong>Description:</strong> |
+            </div>
+        </div> <div class='artifact-item'>
+            <div class='artifact-name'>MacOS.Network.Netstat</div>
+            <div class='artifact-meta'>
+                <span class='platform-badge platform-generic'>Generic</span>
+                <span class='validation-score score-high'>80%</span>
+                <br>
+                <strong>File:</strong> Netstat.yaml | 
+                <strong>Author:</strong>  | 
+                <strong>Parameters:</strong> 10
+                <br>
+                <strong>Description:</strong> |
+            </div>
+        </div> <div class='artifact-item'>
+            <div class='artifact-name'>Linux.Network.NetstatEnriched</div>
+            <div class='artifact-meta'>
+                <span class='platform-badge platform-generic'>Generic</span>
+                <span class='validation-score score-high'>80%</span>
+                <br>
+                <strong>File:</strong> NetstatEnriched.yaml | 
+                <strong>Author:</strong>  | 
+                <strong>Parameters:</strong> 9
+                <br>
+                <strong>Description:</strong> |
+            </div>
+        </div> <div class='artifact-item'>
+            <div class='artifact-name'>Linux.SuSE.Packages</div>
+            <div class='artifact-meta'>
+                <span class='platform-badge platform-generic'>Generic</span>
+                <span class='validation-score score-high'>80%</span>
+                <br>
+                <strong>File:</strong> Packages.yaml | 
+                <strong>Author:</strong> Hilko Bengen <bengen@hilluzination.de> | 
+                <strong>Parameters:</strong> 0
+                <br>
+                <strong>Description:</strong> |
+            </div>
+        </div> <div class='artifact-item'>
+            <div class='artifact-name'>MacOS.Network.PacketCapture</div>
+            <div class='artifact-meta'>
+                <span class='platform-badge platform-generic'>Generic</span>
+                <span class='validation-score score-high'>90%</span>
+                <br>
+                <strong>File:</strong> PacketCapture.yaml | 
+                <strong>Author:</strong> Wes Lambert, @therealwlambert | 
+                <strong>Parameters:</strong> 3
+                <br>
+                <strong>Description:</strong> |
+            </div>
+        </div> <div class='artifact-item'>
+            <div class='artifact-name'>Linux.Ssh.PrivateKeys</div>
+            <div class='artifact-meta'>
+                <span class='platform-badge platform-generic'>Generic</span>
+                <span class='validation-score score-high'>80%</span>
+                <br>
+                <strong>File:</strong> PrivateKeys.yaml | 
+                <strong>Author:</strong>  | 
+                <strong>Parameters:</strong> 3
+                <br>
+                <strong>Description:</strong> |
+            </div>
+        </div> <div class='artifact-item'>
+            <div class='artifact-name'>Linux.Detection.Yara.Process</div>
+            <div class='artifact-meta'>
+                <span class='platform-badge platform-generic'>Generic</span>
+                <span class='validation-score score-high'>90%</span>
+                <br>
+                <strong>File:</strong> Process.yaml | 
+                <strong>Author:</strong> Matt Green - @mgreen27 | 
+                <strong>Parameters:</strong> 9
+                <br>
+                <strong>Description:</strong> |
+            </div>
+        </div> <div class='artifact-item'>
+            <div class='artifact-name'>Linux.Events.ProcessExecutions</div>
+            <div class='artifact-meta'>
+                <span class='platform-badge platform-generic'>Generic</span>
+                <span class='validation-score score-high'>80%</span>
+                <br>
+                <strong>File:</strong> ProcessExecutions.yaml | 
+                <strong>Author:</strong>  | 
+                <strong>Parameters:</strong> 1
+                <br>
+                <strong>Description:</strong> |
+            </div>
+        </div> <div class='artifact-item'>
+            <div class='artifact-name'>Linux.Triage.ProcessMemory</div>
+            <div class='artifact-meta'>
+                <span class='platform-badge platform-generic'>Generic</span>
+                <span class='validation-score score-high'>80%</span>
+                <br>
+                <strong>File:</strong> ProcessMemory.yaml | 
+                <strong>Author:</strong>  | 
+                <strong>Parameters:</strong> 2
+                <br>
+                <strong>Description:</strong> |
+            </div>
+        </div> <div class='artifact-item'>
+            <div class='artifact-name'>Generic.System.ProcessSiblings</div>
+            <div class='artifact-meta'>
+                <span class='platform-badge platform-generic'>Generic</span>
+                <span class='validation-score score-medium'>70%</span>
+                <br>
+                <strong>File:</strong> ProcessSiblings.yaml | 
+                <strong>Author:</strong>  | 
+                <strong>Parameters:</strong> 4
+                <br>
+                <strong>Description:</strong> |
+            </div>
+        </div> <div class='artifact-item'>
+            <div class='artifact-name'>Generic.Client.Profile</div>
+            <div class='artifact-meta'>
+                <span class='platform-badge platform-generic'>Generic</span>
+                <span class='validation-score score-medium'>70%</span>
+                <br>
+                <strong>File:</strong> Profile.yaml | 
+                <strong>Author:</strong>  | 
+                <strong>Parameters:</strong> 20
+                <br>
+                <strong>Description:</strong> |
+            </div>
+        </div> <div class='artifact-item'>
+            <div class='artifact-name'>Linux.Sys.Pslist</div>
+            <div class='artifact-meta'>
+                <span class='platform-badge platform-generic'>Generic</span>
+                <span class='validation-score score-high'>80%</span>
+                <br>
+                <strong>File:</strong> Pslist.yaml | 
+                <strong>Author:</strong>  | 
+                <strong>Parameters:</strong> 1
+                <br>
+                <strong>Description:</strong> |
+            </div>
+        </div> <div class='artifact-item'>
+            <div class='artifact-name'>Generic.System.Pstree</div>
+            <div class='artifact-meta'>
+                <span class='platform-badge platform-generic'>Generic</span>
+                <span class='validation-score score-medium'>70%</span>
+                <br>
+                <strong>File:</strong> Pstree.yaml | 
+                <strong>Author:</strong>  | 
+                <strong>Parameters:</strong> 6
+                <br>
+                <strong>Description:</strong> |
+            </div>
+        </div> <div class='artifact-item'>
+            <div class='artifact-name'>Linux.Remediation.Quarantine</div>
+            <div class='artifact-meta'>
+                <span class='platform-badge platform-generic'>Generic</span>
+                <span class='validation-score score-high'>80%</span>
+                <br>
+                <strong>File:</strong> Quarantine.yaml | 
+                <strong>Author:</strong>  | 
+                <strong>Parameters:</strong> 5
+                <br>
+                <strong>Description:</strong> |
+            </div>
+        </div> <div class='artifact-item'>
+            <div class='artifact-name'>Generic.Forensic.LocalHashes.Query</div>
+            <div class='artifact-meta'>
+                <span class='platform-badge platform-generic'>Generic</span>
+                <span class='validation-score score-medium'>70%</span>
+                <br>
+                <strong>File:</strong> Query.yaml | 
+                <strong>Author:</strong>  | 
+                <strong>Parameters:</strong> 3
+                <br>
+                <strong>Description:</strong> |
+            </div>
+        </div> <div class='artifact-item'>
+            <div class='artifact-name'>Admin.Client.Upgrade.RedHat</div>
+            <div class='artifact-meta'>
+                <span class='platform-badge platform-generic'>Generic</span>
+                <span class='validation-score score-high'>80%</span>
+                <br>
+                <strong>File:</strong> RedHat.yaml | 
+                <strong>Author:</strong>  | 
+                <strong>Parameters:</strong> 3
+                <br>
+                <strong>Description:</strong> |
+            </div>
+        </div> <div class='artifact-item'>
+            <div class='artifact-name'>Generic.Client.Rekey</div>
+            <div class='artifact-meta'>
+                <span class='platform-badge platform-generic'>Generic</span>
+                <span class='validation-score score-medium'>70%</span>
+                <br>
+                <strong>File:</strong> Rekey.yaml | 
+                <strong>Author:</strong>  | 
+                <strong>Parameters:</strong> 1
+                <br>
+                <strong>Description:</strong> |
+            </div>
+        </div> <div class='artifact-item'>
+            <div class='artifact-name'>Admin.Client.Remove</div>
+            <div class='artifact-meta'>
+                <span class='platform-badge platform-generic'>Generic</span>
+                <span class='validation-score score-medium'>70%</span>
+                <br>
+                <strong>File:</strong> Remove.yaml | 
+                <strong>Author:</strong>  | 
+                <strong>Parameters:</strong> 2
+                <br>
+                <strong>Description:</strong> |
+            </div>
+        </div> <div class='artifact-item'>
+            <div class='artifact-name'>Linux.Users.RootUsers</div>
+            <div class='artifact-meta'>
+                <span class='platform-badge platform-generic'>Generic</span>
+                <span class='validation-score score-high'>80%</span>
+                <br>
+                <strong>File:</strong> RootUsers.yaml | 
+                <strong>Author:</strong> George-Andrei Iosif (@iosifache) | 
+                <strong>Parameters:</strong> 0
+                <br>
+                <strong>Description:</strong> |
+            </div>
+        </div> <div class='artifact-item'>
+            <div class='artifact-name'>Generic.Utils.SendEmail</div>
+            <div class='artifact-meta'>
+                <span class='platform-badge platform-generic'>Generic</span>
+                <span class='validation-score score-high'>80%</span>
+                <br>
+                <strong>File:</strong> SendEmail.yaml | 
+                <strong>Author:</strong> Andreas Misje – @misje | 
+                <strong>Parameters:</strong> 9
+                <br>
+                <strong>Description:</strong> |
+            </div>
+        </div> <div class='artifact-item'>
+            <div class='artifact-name'>Linux.Sys.Services</div>
+            <div class='artifact-meta'>
+                <span class='platform-badge platform-generic'>Generic</span>
+                <span class='validation-score score-medium'>70%</span>
+                <br>
+                <strong>File:</strong> Services.yaml | 
+                <strong>Author:</strong>  | 
+                <strong>Parameters:</strong> 0
+                <br>
+                <strong>Description:</strong> Parse services from systemctl
+            </div>
+        </div> <div class='artifact-item'>
+            <div class='artifact-name'>Generic.Applications.Chrome.SessionStorage</div>
+            <div class='artifact-meta'>
+                <span class='platform-badge platform-generic'>Generic</span>
+                <span class='validation-score score-medium'>70%</span>
+                <br>
+                <strong>File:</strong> SessionStorage.yaml | 
+                <strong>Author:</strong>  | 
+                <strong>Parameters:</strong> 3
+                <br>
+                <strong>Description:</strong> |
+            </div>
+        </div> <div class='artifact-item'>
+            <div class='artifact-name'>Linux.Events.SSHBruteforce</div>
+            <div class='artifact-meta'>
+                <span class='platform-badge platform-generic'>Generic</span>
+                <span class='validation-score score-medium'>70%</span>
+                <br>
+                <strong>File:</strong> SSHBruteforce.yaml | 
+                <strong>Author:</strong>  | 
+                <strong>Parameters:</strong> 3
+                <br>
+                <strong>Description:</strong> |
+            </div>
+        </div> <div class='artifact-item'>
+            <div class='artifact-name'>Linux.Syslog.SSHLogin</div>
+            <div class='artifact-meta'>
+                <span class='platform-badge platform-generic'>Generic</span>
+                <span class='validation-score score-medium'>70%</span>
+                <br>
+                <strong>File:</strong> SSHLogin.yaml | 
+                <strong>Author:</strong>  | 
+                <strong>Parameters:</strong> 2
+                <br>
+                <strong>Description:</strong> |
+            </div>
+        </div> <div class='artifact-item'>
+            <div class='artifact-name'>Generic.Client.Stats</div>
+            <div class='artifact-meta'>
+                <span class='platform-badge platform-generic'>Generic</span>
+                <span class='validation-score score-high'>80%</span>
+                <br>
+                <strong>File:</strong> Stats.yaml | 
+                <strong>Author:</strong>  | 
+                <strong>Parameters:</strong> 3
+                <br>
+                <strong>Description:</strong> An Event artifact which generates client's CPU and memory statistics.
+            </div>
+        </div> <div class='artifact-item'>
+            <div class='artifact-name'>Linux.Sys.SUID</div>
+            <div class='artifact-meta'>
+                <span class='platform-badge platform-generic'>Generic</span>
+                <span class='validation-score score-medium'>70%</span>
+                <br>
+                <strong>File:</strong> SUID.yaml | 
+                <strong>Author:</strong>  | 
+                <strong>Parameters:</strong> 1
+                <br>
+                <strong>Description:</strong> |
+            </div>
+        </div> <div class='artifact-item'>
+            <div class='artifact-name'>Elastic.EventLogs.Sysmon</div>
+            <div class='artifact-meta'>
+                <span class='platform-badge platform-generic'>Generic</span>
+                <span class='validation-score score-medium'>70%</span>
+                <br>
+                <strong>File:</strong> Sysmon.yaml | 
+                <strong>Author:</strong>  | 
+                <strong>Parameters:</strong> 1
+                <br>
+                <strong>Description:</strong> |
+            </div>
+        </div> <div class='artifact-item'>
+            <div class='artifact-name'>Generic.Forensic.Timeline</div>
+            <div class='artifact-meta'>
+                <span class='platform-badge platform-generic'>Generic</span>
+                <span class='validation-score score-high'>80%</span>
+                <br>
+                <strong>File:</strong> Timeline.yaml | 
+                <strong>Author:</strong>  | 
+                <strong>Parameters:</strong> 2
+                <br>
+                <strong>Description:</strong> |
+            </div>
+        </div> <div class='artifact-item'>
+            <div class='artifact-name'>Generic.Client.Trace</div>
+            <div class='artifact-meta'>
+                <span class='platform-badge platform-generic'>Generic</span>
+                <span class='validation-score score-medium'>70%</span>
+                <br>
+                <strong>File:</strong> Trace.yaml | 
+                <strong>Author:</strong>  | 
+                <strong>Parameters:</strong> 1
+                <br>
+                <strong>Description:</strong> |
+            </div>
+        </div> <div class='artifact-item'>
+            <div class='artifact-name'>Linux.Events.TrackProcesses</div>
+            <div class='artifact-meta'>
+                <span class='platform-badge platform-generic'>Generic</span>
+                <span class='validation-score score-high'>80%</span>
+                <br>
+                <strong>File:</strong> TrackProcesses.yaml | 
+                <strong>Author:</strong>  | 
+                <strong>Parameters:</strong> 2
+                <br>
+                <strong>Description:</strong> |
+            </div>
+        </div> <div class='artifact-item'>
+            <div class='artifact-name'>Admin.Client.Uninstall</div>
+            <div class='artifact-meta'>
+                <span class='platform-badge platform-generic'>Generic</span>
+                <span class='validation-score score-high'>80%</span>
+                <br>
+                <strong>File:</strong> Uninstall.yaml | 
+                <strong>Author:</strong>  | 
+                <strong>Parameters:</strong> 6
+                <br>
+                <strong>Description:</strong> |
+            </div>
+        </div> <div class='artifact-item'>
+            <div class='artifact-name'>Admin.Client.UpdateClientConfig</div>
+            <div class='artifact-meta'>
+                <span class='platform-badge platform-generic'>Generic</span>
+                <span class='validation-score score-medium'>70%</span>
+                <br>
+                <strong>File:</strong> UpdateClientConfig.yaml | 
+                <strong>Author:</strong>  | 
+                <strong>Parameters:</strong> 5
+                <br>
+                <strong>Description:</strong> |
+            </div>
+        </div> <div class='artifact-item'>
+            <div class='artifact-name'>LogScale.Flows.Upload</div>
+            <div class='artifact-meta'>
+                <span class='platform-badge platform-generic'>Generic</span>
+                <span class='validation-score score-medium'>70%</span>
+                <br>
+                <strong>File:</strong> Upload.yaml | 
+                <strong>Author:</strong>  | 
+                <strong>Parameters:</strong> 10
+                <br>
+                <strong>Description:</strong> |
+            </div>
+        </div> <div class='artifact-item'>
+            <div class='artifact-name'>Generic.Forensic.Carving.URLs</div>
+            <div class='artifact-meta'>
+                <span class='platform-badge platform-generic'>Generic</span>
+                <span class='validation-score score-medium'>70%</span>
+                <br>
+                <strong>File:</strong> URLs.yaml | 
+                <strong>Author:</strong>  | 
+                <strong>Parameters:</strong> 1
+                <br>
+                <strong>Description:</strong> |
+            </div>
+        </div> <div class='artifact-item'>
+            <div class='artifact-name'>Linux.Sys.Users</div>
+            <div class='artifact-meta'>
+                <span class='platform-badge platform-generic'>Generic</span>
+                <span class='validation-score score-high'>80%</span>
+                <br>
+                <strong>File:</strong> Users.yaml | 
+                <strong>Author:</strong>  | 
+                <strong>Parameters:</strong> 1
+                <br>
+                <strong>Description:</strong> Get User specific information like homedir, group, etc. from `/etc/passwd`.
+            </div>
+        </div> <div class='artifact-item'>
+            <div class='artifact-name'>Linux.Applications.Docker.Version</div>
+            <div class='artifact-meta'>
+                <span class='platform-badge platform-generic'>Generic</span>
+                <span class='validation-score score-high'>80%</span>
+                <br>
+                <strong>File:</strong> Version.yaml | 
+                <strong>Author:</strong>  | 
+                <strong>Parameters:</strong> 1
+                <br>
+                <strong>Description:</strong> Get Dockers version by connecting to its socket.
+            </div>
+        </div> <div class='artifact-item'>
+            <div class='artifact-name'>Generic.Client.VQL</div>
+            <div class='artifact-meta'>
+                <span class='platform-badge platform-generic'>Generic</span>
+                <span class='validation-score score-medium'>70%</span>
+                <br>
+                <strong>File:</strong> VQL.yaml | 
+                <strong>Author:</strong>  | 
+                <strong>Parameters:</strong> 1
+                <br>
+                <strong>Description:</strong> |
+            </div>
+        </div> <div class='artifact-item'>
+            <div class='artifact-name'>Generic.Detection.Yara.Zip</div>
+            <div class='artifact-meta'>
+                <span class='platform-badge platform-generic'>Generic</span>
+                <span class='validation-score score-high'>80%</span>
+                <br>
+                <strong>File:</strong> Zip.yaml | 
+                <strong>Author:</strong> "Matt Green - @mgreen27" | 
+                <strong>Parameters:</strong> 8
+                <br>
+                <strong>Description:</strong> |
+            </div>
+        </div> <div class='artifact-item'>
+            <div class='artifact-name'>Linux.Sys.BashHistory</div>
+            <div class='artifact-meta'>
+                <span class='platform-badge platform-linux'>Linux</span>
+                <span class='validation-score score-high'>80%</span>
+                <br>
+                <strong>File:</strong> BashHistory.yaml | 
+                <strong>Author:</strong> "Matt Green - @mgreen27" | 
+                <strong>Parameters:</strong> 3
+                <br>
+                <strong>Description:</strong> |
+            </div>
+        </div> <div class='artifact-item'>
+            <div class='artifact-name'>Linux.Sys.BashShell</div>
+            <div class='artifact-meta'>
+                <span class='platform-badge platform-linux'>Linux</span>
+                <span class='validation-score score-medium'>70%</span>
+                <br>
+                <strong>File:</strong> BashShell.yaml | 
+                <strong>Author:</strong>  | 
+                <strong>Parameters:</strong> 2
+                <br>
+                <strong>Description:</strong> |
+            </div>
+        </div> <div class='artifact-item'>
+            <div class='artifact-name'>Linux.System.ProcessList</div>
+            <div class='artifact-meta'>
+                <span class='platform-badge platform-linux'>Linux</span>
+                <span class='validation-score score-high'>90%</span>
+                <br>
+                <strong>File:</strong> ProcessList.yaml | 
+                <strong>Author:</strong> VelociraptorUltimate | 
+                <strong>Parameters:</strong> 1
+                <br>
+                <strong>Description:</strong> List running processes on Linux systems
+            </div>
+        </div> <div class='artifact-item'>
+            <div class='artifact-name'>Windows.System.ProcessList</div>
+            <div class='artifact-meta'>
+                <span class='platform-badge platform-windows'>Windows</span>
+                <span class='validation-score score-high'>90%</span>
+                <br>
+                <strong>File:</strong> ProcessList.yaml | 
+                <strong>Author:</strong> VelociraptorUltimate | 
+                <strong>Parameters:</strong> 1
+                <br>
+                <strong>Description:</strong> List running processes on Windows systems
+            </div>
+        </div> <div class='artifact-item'>
+            <div class='artifact-name'>Admin.Client.Upgrade.Windows</div>
+            <div class='artifact-meta'>
+                <span class='platform-badge platform-windows'>Windows</span>
+                <span class='validation-score score-high'>80%</span>
+                <br>
+                <strong>File:</strong> Windows.yaml | 
+                <strong>Author:</strong>  | 
+                <strong>Parameters:</strong> 2
+                <br>
+                <strong>Description:</strong> |
+            </div>
+        </div>
+    </div>
+</body>
+</html>

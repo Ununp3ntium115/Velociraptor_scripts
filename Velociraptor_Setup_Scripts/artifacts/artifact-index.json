@@ -1,0 +1,770 @@
+{
+  "Platforms": {
+    "Linux": 2,
+    "Generic": 105,
+    "Windows": 1
+  },
+  "TotalArtifacts": 106,
+  "GeneratedTime": "2025-09-09T09:49:13.2225503-07:00",
+  "Sources": {
+    "https://github.com/Velocidex/velociraptor": 108
+  },
+  "Artifacts": [
+    {
+      "Source": "https://github.com/Velocidex/velociraptor",
+      "ImportTime": "2025-09-09T09:48:27.0260449-07:00",
+      "Name": "b0x.yaml",
+      "Size": 273,
+      "Platform": "Generic"
+    },
+    {
+      "Source": "https://github.com/Velocidex/velociraptor",
+      "ImportTime": "2025-09-09T09:48:28.1767324-07:00",
+      "Name": "Remove.yaml",
+      "Size": 825,
+      "Platform": "Generic"
+    },
+    {
+      "Source": "https://github.com/Velocidex/velociraptor",
+      "ImportTime": "2025-09-09T09:48:28.397749-07:00",
+      "Name": "Uninstall.yaml",
+      "Size": 2401,
+      "Platform": "Generic"
+    },
+    {
+      "Source": "https://github.com/Velocidex/velociraptor",
+      "ImportTime": "2025-09-09T09:48:28.5866414-07:00",
+      "Name": "UpdateClientConfig.yaml",
+      "Size": 2684,
+      "Platform": "Generic"
+    },
+    {
+      "Source": "https://github.com/Velocidex/velociraptor",
+      "ImportTime": "2025-09-09T09:48:29.1430482-07:00",
+      "Name": "Debian.yaml",
+      "Size": 1991,
+      "Platform": "Generic"
+    },
+    {
+      "Source": "https://github.com/Velocidex/velociraptor",
+      "ImportTime": "2025-09-09T09:48:29.3675313-07:00",
+      "Name": "RedHat.yaml",
+      "Size": 1634,
+      "Platform": "Generic"
+    },
+    {
+      "Source": "https://github.com/Velocidex/velociraptor",
+      "ImportTime": "2025-09-09T09:48:29.6026585-07:00",
+      "Name": "Windows.yaml",
+      "Size": 1586,
+      "Platform": "Windows"
+    },
+    {
+      "Source": "https://github.com/Velocidex/velociraptor",
+      "ImportTime": "2025-09-09T09:48:30.4527221-07:00",
+      "Name": "Fifo.yaml",
+      "Size": 3214,
+      "Platform": "Generic"
+    },
+    {
+      "Source": "https://github.com/Velocidex/velociraptor",
+      "ImportTime": "2025-09-09T09:48:30.6726849-07:00",
+      "Name": "GUI.yaml",
+      "Size": 12729,
+      "Platform": "Generic"
+    },
+    {
+      "Source": "https://github.com/Velocidex/velociraptor",
+      "ImportTime": "2025-09-09T09:48:31.5353364-07:00",
+      "Name": "Sysmon.yaml",
+      "Size": 23306,
+      "Platform": "Generic"
+    },
+    {
+      "Source": "https://github.com/Velocidex/velociraptor",
+      "ImportTime": "2025-09-09T09:48:32.281558-07:00",
+      "Name": "Upload.yaml",
+      "Size": 2613,
+      "Platform": "Generic"
+    },
+    {
+      "Source": "https://github.com/Velocidex/velociraptor",
+      "ImportTime": "2025-09-09T09:48:32.8992455-07:00",
+      "Name": "Upload.yaml",
+      "Size": 3370,
+      "Platform": "Generic"
+    },
+    {
+      "Source": "https://github.com/Velocidex/velociraptor",
+      "ImportTime": "2025-09-09T09:48:34.0512264-07:00",
+      "Name": "SessionStorage.yaml",
+      "Size": 2572,
+      "Platform": "Generic"
+    },
+    {
+      "Source": "https://github.com/Velocidex/velociraptor",
+      "ImportTime": "2025-09-09T09:48:34.6410083-07:00",
+      "Name": "Keywords.yaml",
+      "Size": 2574,
+      "Platform": "Generic"
+    },
+    {
+      "Source": "https://github.com/Velocidex/velociraptor",
+      "ImportTime": "2025-09-09T09:48:35.2568726-07:00",
+      "Name": "CleanupTemp.yaml",
+      "Size": 723,
+      "Platform": "Generic"
+    },
+    {
+      "Source": "https://github.com/Velocidex/velociraptor",
+      "ImportTime": "2025-09-09T09:48:35.4769256-07:00",
+      "Name": "DiskSpace.yaml",
+      "Size": 1209,
+      "Platform": "Generic"
+    },
+    {
+      "Source": "https://github.com/Velocidex/velociraptor",
+      "ImportTime": "2025-09-09T09:48:35.6795678-07:00",
+      "Name": "DiskUsage.yaml",
+      "Size": 1825,
+      "Platform": "Generic"
+    },
+    {
+      "Source": "https://github.com/Velocidex/velociraptor",
+      "ImportTime": "2025-09-09T09:48:35.8924025-07:00",
+      "Name": "Info.yaml",
+      "Size": 6513,
+      "Platform": "Generic"
+    },
+    {
+      "Source": "https://github.com/Velocidex/velociraptor",
+      "ImportTime": "2025-09-09T09:48:36.0965035-07:00",
+      "Name": "LocalLogs.yaml",
+      "Size": 1443,
+      "Platform": "Generic"
+    },
+    {
+      "Source": "https://github.com/Velocidex/velociraptor",
+      "ImportTime": "2025-09-09T09:48:36.3148477-07:00",
+      "Name": "LocalLogsRetrieve.yaml",
+      "Size": 714,
+      "Platform": "Generic"
+    },
+    {
+      "Source": "https://github.com/Velocidex/velociraptor",
+      "ImportTime": "2025-09-09T09:48:36.5360618-07:00",
+      "Name": "Profile.yaml",
+      "Size": 4202,
+      "Platform": "Generic"
+    },
+    {
+      "Source": "https://github.com/Velocidex/velociraptor",
+      "ImportTime": "2025-09-09T09:48:36.74855-07:00",
+      "Name": "Rekey.yaml",
+      "Size": 1015,
+      "Platform": "Generic"
+    },
+    {
+      "Source": "https://github.com/Velocidex/velociraptor",
+      "ImportTime": "2025-09-09T09:48:36.9772898-07:00",
+      "Name": "Stats.yaml",
+      "Size": 3635,
+      "Platform": "Generic"
+    },
+    {
+      "Source": "https://github.com/Velocidex/velociraptor",
+      "ImportTime": "2025-09-09T09:48:37.178517-07:00",
+      "Name": "Trace.yaml",
+      "Size": 640,
+      "Platform": "Generic"
+    },
+    {
+      "Source": "https://github.com/Velocidex/velociraptor",
+      "ImportTime": "2025-09-09T09:48:37.3876709-07:00",
+      "Name": "VQL.yaml",
+      "Size": 272,
+      "Platform": "Generic"
+    },
+    {
+      "Source": "https://github.com/Velocidex/velociraptor",
+      "ImportTime": "2025-09-09T09:48:37.9688987-07:00",
+      "Name": "File.yaml",
+      "Size": 3831,
+      "Platform": "Generic"
+    },
+    {
+      "Source": "https://github.com/Velocidex/velociraptor",
+      "ImportTime": "2025-09-09T09:48:38.4903767-07:00",
+      "Name": "HashHunter.yaml",
+      "Size": 4525,
+      "Platform": "Generic"
+    },
+    {
+      "Source": "https://github.com/Velocidex/velociraptor",
+      "ImportTime": "2025-09-09T09:48:38.6962666-07:00",
+      "Name": "Logs.yaml",
+      "Size": 3706,
+      "Platform": "Generic"
+    },
+    {
+      "Source": "https://github.com/Velocidex/velociraptor",
+      "ImportTime": "2025-09-09T09:48:39.3300267-07:00",
+      "Name": "Glob.yaml",
+      "Size": 5327,
+      "Platform": "Generic"
+    },
+    {
+      "Source": "https://github.com/Velocidex/velociraptor",
+      "ImportTime": "2025-09-09T09:48:39.6975771-07:00",
+      "Name": "Zip.yaml",
+      "Size": 5374,
+      "Platform": "Generic"
+    },
+    {
+      "Source": "https://github.com/Velocidex/velociraptor",
+      "ImportTime": "2025-09-09T09:48:40.507152-07:00",
+      "Name": "URLs.yaml",
+      "Size": 1270,
+      "Platform": "Generic"
+    },
+    {
+      "Source": "https://github.com/Velocidex/velociraptor",
+      "ImportTime": "2025-09-09T09:48:40.7283842-07:00",
+      "Name": "HashLookup.yaml",
+      "Size": 1272,
+      "Platform": "Generic"
+    },
+    {
+      "Source": "https://github.com/Velocidex/velociraptor",
+      "ImportTime": "2025-09-09T09:48:41.2504695-07:00",
+      "Name": "Glob.yaml",
+      "Size": 2044,
+      "Platform": "Generic"
+    },
+    {
+      "Source": "https://github.com/Velocidex/velociraptor",
+      "ImportTime": "2025-09-09T09:48:41.4687206-07:00",
+      "Name": "Init.yaml",
+      "Size": 1142,
+      "Platform": "Generic"
+    },
+    {
+      "Source": "https://github.com/Velocidex/velociraptor",
+      "ImportTime": "2025-09-09T09:48:41.822389-07:00",
+      "Name": "Query.yaml",
+      "Size": 1708,
+      "Platform": "Generic"
+    },
+    {
+      "Source": "https://github.com/Velocidex/velociraptor",
+      "ImportTime": "2025-09-09T09:48:42.0309755-07:00",
+      "Name": "Timeline.yaml",
+      "Size": 1148,
+      "Platform": "Generic"
+    },
+    {
+      "Source": "https://github.com/Velocidex/velociraptor",
+      "ImportTime": "2025-09-09T09:48:42.5480954-07:00",
+      "Name": "InterfaceAddresses.yaml",
+      "Size": 553,
+      "Platform": "Generic"
+    },
+    {
+      "Source": "https://github.com/Velocidex/velociraptor",
+      "ImportTime": "2025-09-09T09:48:43.1294013-07:00",
+      "Name": "EfiSignatures.yaml",
+      "Size": 4274,
+      "Platform": "Generic"
+    },
+    {
+      "Source": "https://github.com/Velocidex/velociraptor",
+      "ImportTime": "2025-09-09T09:48:43.5020775-07:00",
+      "Name": "HostsFile.yaml",
+      "Size": 3194,
+      "Platform": "Generic"
+    },
+    {
+      "Source": "https://github.com/Velocidex/velociraptor",
+      "ImportTime": "2025-09-09T09:48:43.7103372-07:00",
+      "Name": "ProcessSiblings.yaml",
+      "Size": 1451,
+      "Platform": "Generic"
+    },
+    {
+      "Source": "https://github.com/Velocidex/velociraptor",
+      "ImportTime": "2025-09-09T09:48:43.9239994-07:00",
+      "Name": "Pstree.yaml",
+      "Size": 1347,
+      "Platform": "Generic"
+    },
+    {
+      "Source": "https://github.com/Velocidex/velociraptor",
+      "ImportTime": "2025-09-09T09:48:44.488539-07:00",
+      "Name": "DeadDiskRemapping.yaml",
+      "Size": 9968,
+      "Platform": "Generic"
+    },
+    {
+      "Source": "https://github.com/Velocidex/velociraptor",
+      "ImportTime": "2025-09-09T09:48:44.7330855-07:00",
+      "Name": "FetchBinary.yaml",
+      "Size": 5966,
+      "Platform": "Generic"
+    },
+    {
+      "Source": "https://github.com/Velocidex/velociraptor",
+      "ImportTime": "2025-09-09T09:48:44.9758618-07:00",
+      "Name": "SendEmail.yaml",
+      "Size": 6474,
+      "Platform": "Generic"
+    },
+    {
+      "Source": "https://github.com/Velocidex/velociraptor",
+      "ImportTime": "2025-09-09T09:48:46.1036521-07:00",
+      "Name": "Extensions.yaml",
+      "Size": 4901,
+      "Platform": "Generic"
+    },
+    {
+      "Source": "https://github.com/Velocidex/velociraptor",
+      "ImportTime": "2025-09-09T09:48:46.6160012-07:00",
+      "Name": "Upload.yaml",
+      "Size": 840,
+      "Platform": "Generic"
+    },
+    {
+      "Source": "https://github.com/Velocidex/velociraptor",
+      "ImportTime": "2025-09-09T09:48:47.1317277-07:00",
+      "Name": "Info.yaml",
+      "Size": 2035,
+      "Platform": "Generic"
+    },
+    {
+      "Source": "https://github.com/Velocidex/velociraptor",
+      "ImportTime": "2025-09-09T09:48:47.3522996-07:00",
+      "Name": "Version.yaml",
+      "Size": 911,
+      "Platform": "Generic"
+    },
+    {
+      "Source": "https://github.com/Velocidex/velociraptor",
+      "ImportTime": "2025-09-09T09:48:47.9285465-07:00",
+      "Name": "AptSources.yaml",
+      "Size": 22150,
+      "Platform": "Generic"
+    },
+    {
+      "Source": "https://github.com/Velocidex/velociraptor",
+      "ImportTime": "2025-09-09T09:48:48.1580059-07:00",
+      "Name": "Packages.yaml",
+      "Size": 4277,
+      "Platform": "Generic"
+    },
+    {
+      "Source": "https://github.com/Velocidex/velociraptor",
+      "ImportTime": "2025-09-09T09:48:48.648283-07:00",
+      "Name": "AnomalousFiles.yaml",
+      "Size": 1072,
+      "Platform": "Generic"
+    },
+    {
+      "Source": "https://github.com/Velocidex/velociraptor",
+      "ImportTime": "2025-09-09T09:48:49.1714788-07:00",
+      "Name": "Process.yaml",
+      "Size": 3917,
+      "Platform": "Generic"
+    },
+    {
+      "Source": "https://github.com/Velocidex/velociraptor",
+      "ImportTime": "2025-09-09T09:48:49.6989019-07:00",
+      "Name": "DNS.yaml",
+      "Size": 1854,
+      "Platform": "Generic"
+    },
+    {
+      "Source": "https://github.com/Velocidex/velociraptor",
+      "ImportTime": "2025-09-09T09:48:49.9222084-07:00",
+      "Name": "EBPF.yaml",
+      "Size": 1727,
+      "Platform": "Generic"
+    },
+    {
+      "Source": "https://github.com/Velocidex/velociraptor",
+      "ImportTime": "2025-09-09T09:48:50.1431074-07:00",
+      "Name": "HTTPConnections.yaml",
+      "Size": 1792,
+      "Platform": "Generic"
+    },
+    {
+      "Source": "https://github.com/Velocidex/velociraptor",
+      "ImportTime": "2025-09-09T09:48:50.376291-07:00",
+      "Name": "Journal.yaml",
+      "Size": 494,
+      "Platform": "Generic"
+    },
+    {
+      "Source": "https://github.com/Velocidex/velociraptor",
+      "ImportTime": "2025-09-09T09:48:50.5927103-07:00",
+      "Name": "ProcessExecutions.yaml",
+      "Size": 1704,
+      "Platform": "Generic"
+    },
+    {
+      "Source": "https://github.com/Velocidex/velociraptor",
+      "ImportTime": "2025-09-09T09:48:50.8020392-07:00",
+      "Name": "SSHBruteforce.yaml",
+      "Size": 2155,
+      "Platform": "Generic"
+    },
+    {
+      "Source": "https://github.com/Velocidex/velociraptor",
+      "ImportTime": "2025-09-09T09:48:51.027739-07:00",
+      "Name": "SSHLogin.yaml",
+      "Size": 1186,
+      "Platform": "Generic"
+    },
+    {
+      "Source": "https://github.com/Velocidex/velociraptor",
+      "ImportTime": "2025-09-09T09:48:51.2477237-07:00",
+      "Name": "TrackProcesses.yaml",
+      "Size": 2658,
+      "Platform": "Generic"
+    },
+    {
+      "Source": "https://github.com/Velocidex/velociraptor",
+      "ImportTime": "2025-09-09T09:48:51.7635171-07:00",
+      "Name": "ImmutableFiles.yaml",
+      "Size": 1300,
+      "Platform": "Generic"
+    },
+    {
+      "Source": "https://github.com/Velocidex/velociraptor",
+      "ImportTime": "2025-09-09T09:48:51.9761386-07:00",
+      "Name": "Journal.yaml",
+      "Size": 3510,
+      "Platform": "Generic"
+    },
+    {
+      "Source": "https://github.com/Velocidex/velociraptor",
+      "ImportTime": "2025-09-09T09:48:52.1991899-07:00",
+      "Name": "Mounts.yaml",
+      "Size": 596,
+      "Platform": "Generic"
+    },
+    {
+      "Source": "https://github.com/Velocidex/velociraptor",
+      "ImportTime": "2025-09-09T09:48:52.7591289-07:00",
+      "Name": "Netstat.yaml",
+      "Size": 4359,
+      "Platform": "Generic"
+    },
+    {
+      "Source": "https://github.com/Velocidex/velociraptor",
+      "ImportTime": "2025-09-09T09:48:52.9876613-07:00",
+      "Name": "NetstatEnriched.yaml",
+      "Size": 1983,
+      "Platform": "Generic"
+    },
+    {
+      "Source": "https://github.com/Velocidex/velociraptor",
+      "ImportTime": "2025-09-09T09:48:53.1951013-07:00",
+      "Name": "PacketCapture.yaml",
+      "Size": 1223,
+      "Platform": "Generic"
+    },
+    {
+      "Source": "https://github.com/Velocidex/velociraptor",
+      "ImportTime": "2025-09-09T09:48:53.7425268-07:00",
+      "Name": "Generic.yaml",
+      "Size": 1025,
+      "Platform": "Generic"
+    },
+    {
+      "Source": "https://github.com/Velocidex/velociraptor",
+      "ImportTime": "2025-09-09T09:48:54.2541252-07:00",
+      "Name": "Arp.yaml",
+      "Size": 351,
+      "Platform": "Generic"
+    },
+    {
+      "Source": "https://github.com/Velocidex/velociraptor",
+      "ImportTime": "2025-09-09T09:48:54.4565129-07:00",
+      "Name": "Modules.yaml",
+      "Size": 627,
+      "Platform": "Generic"
+    },
+    {
+      "Source": "https://github.com/Velocidex/velociraptor",
+      "ImportTime": "2025-09-09T09:48:54.9684746-07:00",
+      "Name": "Packages.yaml",
+      "Size": 1096,
+      "Platform": "Generic"
+    },
+    {
+      "Source": "https://github.com/Velocidex/velociraptor",
+      "ImportTime": "2025-09-09T09:48:55.4680275-07:00",
+      "Name": "Quarantine.yaml",
+      "Size": 13685,
+      "Platform": "Generic"
+    },
+    {
+      "Source": "https://github.com/Velocidex/velociraptor",
+      "ImportTime": "2025-09-09T09:48:55.9737776-07:00",
+      "Name": "FileFinder.yaml",
+      "Size": 6047,
+      "Platform": "Generic"
+    },
+    {
+      "Source": "https://github.com/Velocidex/velociraptor",
+      "ImportTime": "2025-09-09T09:48:56.5475506-07:00",
+      "Name": "AuthorizedKeys.yaml",
+      "Size": 2579,
+      "Platform": "Generic"
+    },
+    {
+      "Source": "https://github.com/Velocidex/velociraptor",
+      "ImportTime": "2025-09-09T09:48:56.7692175-07:00",
+      "Name": "KnownHosts.yaml",
+      "Size": 2447,
+      "Platform": "Generic"
+    },
+    {
+      "Source": "https://github.com/Velocidex/velociraptor",
+      "ImportTime": "2025-09-09T09:48:56.9826682-07:00",
+      "Name": "PrivateKeys.yaml",
+      "Size": 5475,
+      "Platform": "Generic"
+    },
+    {
+      "Source": "https://github.com/Velocidex/velociraptor",
+      "ImportTime": "2025-09-09T09:48:57.5488926-07:00",
+      "Name": "Packages.yaml",
+      "Size": 867,
+      "Platform": "Generic"
+    },
+    {
+      "Source": "https://github.com/Velocidex/velociraptor",
+      "ImportTime": "2025-09-09T09:48:58.1089327-07:00",
+      "Name": "ACPITables.yaml",
+      "Size": 526,
+      "Platform": "Generic"
+    },
+    {
+      "Source": "https://github.com/Velocidex/velociraptor",
+      "ImportTime": "2025-09-09T09:48:58.3032514-07:00",
+      "Name": "BashHistory.yaml",
+      "Size": 1165,
+      "Platform": "Linux"
+    },
+    {
+      "Source": "https://github.com/Velocidex/velociraptor",
+      "ImportTime": "2025-09-09T09:48:58.5016827-07:00",
+      "Name": "BashShell.yaml",
+      "Size": 1026,
+      "Platform": "Linux"
+    },
+    {
+      "Source": "https://github.com/Velocidex/velociraptor",
+      "ImportTime": "2025-09-09T09:48:58.7095999-07:00",
+      "Name": "CPUTime.yaml",
+      "Size": 1077,
+      "Platform": "Generic"
+    },
+    {
+      "Source": "https://github.com/Velocidex/velociraptor",
+      "ImportTime": "2025-09-09T09:48:58.9271945-07:00",
+      "Name": "Crontab.yaml",
+      "Size": 2198,
+      "Platform": "Generic"
+    },
+    {
+      "Source": "https://github.com/Velocidex/velociraptor",
+      "ImportTime": "2025-09-09T09:48:59.1226851-07:00",
+      "Name": "Groups.yaml",
+      "Size": 611,
+      "Platform": "Generic"
+    },
+    {
+      "Source": "https://github.com/Velocidex/velociraptor",
+      "ImportTime": "2025-09-09T09:48:59.3508454-07:00",
+      "Name": "LastUserLogin.yaml",
+      "Size": 4135,
+      "Platform": "Generic"
+    },
+    {
+      "Source": "https://github.com/Velocidex/velociraptor",
+      "ImportTime": "2025-09-09T09:48:59.5534761-07:00",
+      "Name": "LogGrep.yaml",
+      "Size": 892,
+      "Platform": "Generic"
+    },
+    {
+      "Source": "https://github.com/Velocidex/velociraptor",
+      "ImportTime": "2025-09-09T09:48:59.7500559-07:00",
+      "Name": "LogHunter.yaml",
+      "Size": 1944,
+      "Platform": "Generic"
+    },
+    {
+      "Source": "https://github.com/Velocidex/velociraptor",
+      "ImportTime": "2025-09-09T09:48:59.9644428-07:00",
+      "Name": "Maps.yaml",
+      "Size": 1504,
+      "Platform": "Generic"
+    },
+    {
+      "Source": "https://github.com/Velocidex/velociraptor",
+      "ImportTime": "2025-09-09T09:49:00.1689568-07:00",
+      "Name": "Pslist.yaml",
+      "Size": 596,
+      "Platform": "Generic"
+    },
+    {
+      "Source": "https://github.com/Velocidex/velociraptor",
+      "ImportTime": "2025-09-09T09:49:00.387775-07:00",
+      "Name": "SUID.yaml",
+      "Size": 1737,
+      "Platform": "Generic"
+    },
+    {
+      "Source": "https://github.com/Velocidex/velociraptor",
+      "ImportTime": "2025-09-09T09:49:00.594896-07:00",
+      "Name": "Services.yaml",
+      "Size": 654,
+      "Platform": "Generic"
+    },
+    {
+      "Source": "https://github.com/Velocidex/velociraptor",
+      "ImportTime": "2025-09-09T09:49:00.79845-07:00",
+      "Name": "Users.yaml",
+      "Size": 560,
+      "Platform": "Generic"
+    },
+    {
+      "Source": "https://github.com/Velocidex/velociraptor",
+      "ImportTime": "2025-09-09T09:49:01.3533311-07:00",
+      "Name": "SSHLogin.yaml",
+      "Size": 1226,
+      "Platform": "Generic"
+    },
+    {
+      "Source": "https://github.com/Velocidex/velociraptor",
+      "ImportTime": "2025-09-09T09:49:01.937211-07:00",
+      "Name": "ProcessMemory.yaml",
+      "Size": 503,
+      "Platform": "Generic"
+    },
+    {
+      "Source": "https://github.com/Velocidex/velociraptor",
+      "ImportTime": "2025-09-09T09:49:02.4481899-07:00",
+      "Name": "InteractiveUsers.yaml",
+      "Size": 743,
+      "Platform": "Generic"
+    },
+    {
+      "Source": "https://github.com/Velocidex/velociraptor",
+      "ImportTime": "2025-09-09T09:49:02.6532976-07:00",
+      "Name": "RootUsers.yaml",
+      "Size": 711,
+      "Platform": "Generic"
+    },
+    {
+      "Source": "https://github.com/Velocidex/velociraptor",
+      "ImportTime": "2025-09-09T09:49:03.2249892-07:00",
+      "Name": "InstallDeb.yaml",
+      "Size": 8711,
+      "Platform": "Generic"
+    },
+    {
+      "Source": "https://github.com/Velocidex/velociraptor",
+      "ImportTime": "2025-09-09T09:49:04.0696431-07:00",
+      "Name": "Clients.yaml",
+      "Size": 2464,
+      "Platform": "Generic"
+    },
+    {
+      "Source": "https://github.com/Velocidex/velociraptor",
+      "ImportTime": "2025-09-09T09:49:04.5715076-07:00",
+      "Name": "Upload.yaml",
+      "Size": 2640,
+      "Platform": "Generic"
+    },
+    {
+      "Source": "https://github.com/Velocidex/velociraptor",
+      "ImportTime": "2025-09-09T09:49:05.7248563-07:00",
+      "Name": "History.yaml",
+      "Size": 1129,
+      "Platform": "Generic"
+    },
+    {
+      "Source": "https://github.com/Velocidex/velociraptor",
+      "ImportTime": "2025-09-09T09:49:05.9385363-07:00",
+      "Name": "MRU.yaml",
+      "Size": 5514,
+      "Platform": "Generic"
+    },
+    {
+      "Source": "https://github.com/Velocidex/velociraptor",
+      "ImportTime": "2025-09-09T09:49:06.5094615-07:00",
+      "Name": "Autoruns.yaml",
+      "Size": 4818,
+      "Platform": "Generic"
+    },
+    {
+      "Source": "https://github.com/Velocidex/velociraptor",
+      "ImportTime": "2025-09-09T09:49:06.7152486-07:00",
+      "Name": "InstallHistory.yaml",
+      "Size": 1179,
+      "Platform": "Generic"
+    },
+    {
+      "Source": "https://github.com/Velocidex/velociraptor",
+      "ImportTime": "2025-09-09T09:49:07.2246458-07:00",
+      "Name": "AppleDoubleZip.yaml",
+      "Size": 3808,
+      "Platform": "Generic"
+    },
+    {
+      "Source": "https://github.com/Velocidex/velociraptor",
+      "ImportTime": "2025-09-09T09:49:07.4412919-07:00",
+      "Name": "FSEvents.yaml",
+      "Size": 7725,
+      "Platform": "Generic"
+    },
+    {
+      "Source": "https://github.com/Velocidex/velociraptor",
+      "ImportTime": "2025-09-09T09:49:07.9948629-07:00",
+      "Name": "Netstat.yaml",
+      "Size": 2124,
+      "Platform": "Generic"
+    },
+    {
+      "Source": "https://github.com/Velocidex/velociraptor",
+      "ImportTime": "2025-09-09T09:49:08.2028059-07:00",
+      "Name": "PacketCapture.yaml",
+      "Size": 1224,
+      "Platform": "Generic"
+    },
+    {
+      "Source": "https://github.com/Velocidex/velociraptor",
+      "ImportTime": "2025-09-09T09:49:08.7042416-07:00",
+      "Name": "Generic.yaml",
+      "Size": 1029,
+      "Platform": "Generic"
+    },
+    {
+      "Source": "https://github.com/Velocidex/velociraptor",
+      "ImportTime": "2025-09-09T09:49:11.4509276-07:00",
+      "Name": ".golangci.yml",
+      "Size": 680,
+      "Platform": "Generic"
+    },
+    {
+      "Source": "https://github.com/Velocidex/velociraptor",
+      "ImportTime": "2025-09-09T09:49:11.6620309-07:00",
+      "Name": ".wwhrd.yml",
+      "Size": 235,
+      "Platform": "Generic"
+    }
+  ]
+}

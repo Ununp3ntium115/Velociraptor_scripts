@@ -1,0 +1,24 @@
+{
+  "CreatedTime": "2025-09-09T09:48:15.6432081-07:00",
+  "Tools": {
+    "SetupScript": "Setup-ArtifactRepository.ps1",
+    "ImportScript": "Import-VelociraptorArtifacts.ps1",
+    "ManageScript": "Manage-LocalArtifacts.ps1"
+  },
+  "Description": "Local Velociraptor Artifact Repository",
+  "Version": "1.0.0",
+  "Integration": {
+    "LocalManagement": true,
+    "VelociraptorUltimate": "VelociraptorUltimate.ps1",
+    "ArtifactTab": "Artifacts"
+  },
+  "Directories": [
+    ".\\artifacts",
+    ".\\artifacts\\Windows",
+    ".\\artifacts\\Linux",
+    ".\\artifacts\\MacOS",
+    ".\\artifacts\\Generic",
+    ".\\artifacts\\Community",
+    ".\\artifacts\\Custom"
+  ]
+}

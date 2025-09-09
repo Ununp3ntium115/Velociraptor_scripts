@@ -1,0 +1,16 @@
+name: Windows.System.ProcessList
+description: List running processes on Windows systems
+author: VelociraptorUltimate
+type: CLIENT
+parameters:
+  - name: ProcessNameRegex
+    description: Regex to match process names
+    default: ".*"
+    type: regex
+
+sources:
+  - precondition: SELECT OS From info() where OS = 'windows'
+    query: |
+      SELECT Name, Pid, Ppid, CommandLine, CreateTime
+      FROM pslist()
+      WHERE Name =~ ProcessNameRegex
