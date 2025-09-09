@@ -13,6 +13,23 @@ This directory contains comprehensive steering files that provide context, guida
 ### Specialized Guidance
 - `velociraptor-source.md` - Custom Velociraptor repository configuration and usage guidelines
 
+### Deployment and Operations
+- `deployment-success.md` - Proven deployment methods and troubleshooting guide
+- `user-management.md` - User management best practices and security guidelines
+
+### Navigation and Reference
+- `INDEX.md` - Comprehensive navigation and quick reference guide
+- `SHORTHAND.md` - Shorthand codes for cross-referencing guidance
+
+### Installation and Configuration
+- `Install Tree.md` - Complete installation directory structures and processes
+- `Velociraptor Setup Tree (Windows, single-host server).md` - Windows single-host deployment structure
+- `B) Practical Windows filesystem tree (single-host, built-in HTTPS).md` - Production filesystem layout
+- `Minimal server.config.yaml keys relevant to GUI (for orientation).md` - Essential configuration keys
+
+### Success Patterns
+- `success-patterns.md` - Proven success patterns and anti-patterns to avoid
+
 ## Steering System Features
 
 ### Automatic Context Inclusion
@@ -25,17 +42,20 @@ These files are automatically included in agent context to provide:
 
 ### Quick Reference System
 The steering system includes:
-- **INDEX.md** - Quick reference to all active steering documents
+- **INDEX.md** - Comprehensive navigation with quick actions and checklists
 - **SHORTHAND.md** - Code-based reference system for easy lookup in code and documentation
 - **Cross-References** - Integrated reference system across all documentation
+- **Success Metrics** - Clear indicators for deployment and development success
 
 ## Usage Guidelines
 
 ### For Development
-- Reference steering files when making architectural decisions
-- Follow technology stack guidelines for tool selection
-- Adhere to structure conventions for new files and modules
-- Implement testing standards for all new functionality
+- Start with **[DEPLOY-SUCCESS]** for reliable deployment methods
+- Use **[WORKING-CMD]** (`C:\tools\velociraptor.exe gui`) for simple deployment
+- Follow **[USER-MGMT]** for user administration and security
+- Reference **[CUSTOM-REPO]** for all Velociraptor downloads
+- Adhere to **[STRUCT]** conventions for new files and modules
+- Implement **[TEST]** standards for all new functionality
 
 ### For Documentation
 - Use shorthand codes for cross-referencing (e.g., [TECH], [SECU], [TEST])

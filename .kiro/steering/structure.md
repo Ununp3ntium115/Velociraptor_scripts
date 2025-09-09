@@ -9,7 +9,7 @@ Velociraptor_Setup_Scripts/
 ├── VelociraptorSetupScripts.psm1         # Root module file
 ├── VelociraptorSetupScripts.psd1         # Root module manifest
 ├── package.json                          # NPM-style metadata and scripts
-├── VERSION                               # Current version number (5.0.4-beta)
+├── VERSION                               # Current version number (5.0.3-beta)
 ├── README.md                             # Main documentation
 ├── LICENSE                               # MIT license
 └── deploy-velociraptor-standalone.sh     # Cross-platform shell script

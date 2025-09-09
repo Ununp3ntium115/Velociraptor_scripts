@@ -44,7 +44,7 @@ The platform transforms complex DFIR deployment into intelligent, automated proc
 
 ## Current Status
 
-**Version 5.0.4-beta** - Production ready with enterprise-grade features and comprehensive testing coverage.
+**Version 5.0.3-beta** - Production ready with enterprise-grade features and comprehensive testing coverage.
 
 ### Key Metrics
 - **Test Coverage**: >90% for critical deployment functions
