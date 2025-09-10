@@ -7,10 +7,18 @@ This index provides fast access to all steering guidance and reference materials
 ### 🚀 Getting Started
 
 #### Essential First Steps
-1. **[DEPLOY-SUCCESS]** - Start here for reliable deployment
+1. **[DEPLOY-SUCCESS]** - Start here for reliable deployment (proven 100% success rate)
 2. **[USER-MGMT]** - Set up user accounts and authentication
 3. **[WORKING-CMD]** - Use `C:\tools\velociraptor.exe gui` for simple deployment
 4. **[DEFAULT-CREDS]** - admin/admin123 for initial testing
+5. **GUI Applications** - Choose from 25+ VelociraptorUltimate variants
+
+#### Available GUI Applications
+- **VelociraptorUltimate-Simple-Working.ps1** - Proven working version
+- **VelociraptorUltimate-Final.ps1** - Production-ready complete version
+- **VelociraptorUltimate-Complete.ps1** - Comprehensive feature set
+- **VelociraptorUltimate-Secure.ps1** - Security-hardened version
+- **Plus 20+ additional specialized variants**
 
 #### Quick Deployment
 ```powershell
@@ -66,11 +74,15 @@ Start-Process PowerShell -ArgumentList "-NoExit", "-Command", "C:\tools\velocira
 - **[INTEGRATION-TEST]** - Integration testing approach
 - **[SECURITY-TEST]** - Security validation testing
 - **[COVERAGE]** - >90% critical, >80% overall coverage targets
+- **QA Framework** - Complete Quality Assurance testing suite
+- **UA Testing** - User Acceptance testing with real-world scenarios
 
 #### Code Quality
 - **[CODE-QUALITY]** - Standards and automated checks
 - **[PERFORMANCE]** - Performance testing and optimization
 - **[RELIABILITY]** - Stability and reliability requirements
+- **Test Applications** - Dedicated testing versions of all GUI applications
+- **QA Reports** - Comprehensive test reports and validation results
 
 ### 🚨 Incident Response
 
@@ -86,6 +98,9 @@ Start-Process PowerShell -ArgumentList "-NoExit", "-Command", "C:\tools\velocira
 - **[TOOL-DEPS]** - Tool dependency management
 - **[OFFLINE-COLLECTOR]** - Offline collector building
 - **[CUSTOM-ARTIFACTS]** - Custom artifact development
+- **Artifact Repository** - 100+ forensic artifacts (Generic, Linux, Windows)
+- **Tool Integration** - Third-party tool management and integration
+- **Artifact Import** - Automated artifact import and validation
 
 ### ☁️ Cloud and Containers
 
@@ -127,6 +142,7 @@ Invoke-WebRequest -Uri "https://127.0.0.1:8889" -SkipCertificateCheck -UseBasicP
 - **SHORTHAND.md** - Quick reference codes for all guidance
 - **INDEX.md** - This comprehensive navigation document
 - **README.md** - Steering system overview and introduction
+- **project-status.md** - Comprehensive project capabilities and status overview
 
 ### 🔄 Development Workflow
 

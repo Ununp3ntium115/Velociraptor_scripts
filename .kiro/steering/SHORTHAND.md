@@ -24,6 +24,9 @@ This document provides shorthand codes for quick reference to steering guidance 
 - **[SIMPLE-GUI]** - Simple GUI deployment approach
 - **[WORKING-CMD]** - `C:\tools\velociraptor.exe gui` command
 - **[ADMIN-LAUNCH]** - Administrator privilege launch method
+- **[PROJECT-STATUS]** - Comprehensive project capabilities overview (`project-status.md`)
+- **[GUI-SUITE]** - 25+ VelociraptorUltimate application variants
+- **[QA-FRAMEWORK]** - Quality Assurance and User Acceptance testing
 
 #### User Management
 - **[USER-MGMT]** - User management best practices (`user-management.md`)
@@ -113,6 +116,14 @@ This document provides shorthand codes for quick reference to steering guidance 
 - **[TOOL-DEPS]** - Tool dependency management
 - **[OFFLINE-COLLECTOR]** - Offline collector building
 - **[CUSTOM-ARTIFACTS]** - Custom artifact development
+- **[ARTIFACT-REPO]** - 100+ forensic artifacts repository
+
+#### GUI Applications
+- **[GUI-FINAL]** - VelociraptorUltimate-Final.ps1 production version
+- **[GUI-SIMPLE]** - VelociraptorUltimate-Simple-Working.ps1 proven version
+- **[GUI-COMPLETE]** - VelociraptorUltimate-Complete.ps1 comprehensive version
+- **[GUI-SECURE]** - VelociraptorUltimate-Secure.ps1 security-hardened version
+- **[GUI-TEST]** - Testing and development GUI versions
 
 ### Usage Examples
 
